@@ -196,19 +196,9 @@ export default function Home() {
                           type="number"
                           className="w-20 border border-gray-300 rounded-md px-2 py-1"
                           value={product.price}
-                          onChange={(e) =>
-                            handleQuantityChange(e, product.slug)
-                          }
-                        />
-                      </td>
-                      {/* <td className="py-2 px-4 border-b border-gray-200 text-center">
-                        <input
-                          type="number"
-                          className="w-20 border border-gray-300 rounded-md px-2 py-1"
-                          value={product.price}
                           onChange={(e) => handlePriceChange(e, product.slug)}
                         />
-                      </td> */}
+                      </td>
                       <td className="py-2 px-4 border-b border-gray-200">
                         <div className="mx-5">
                           <button
